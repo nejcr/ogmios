@@ -13,6 +13,7 @@
 
 ogmios \
   --host 0.0.0.0 \
+  --host-ipv6-addr :: \
   --node-config /config/cardano-node/config.json \
   --node-socket /ipc/node.socket &
 ogmios_status=$?
